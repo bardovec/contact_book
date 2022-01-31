@@ -1,4 +1,4 @@
-# `superchat-frontend-challenge`
+# `Contact-book`
 
 This project was created by Andrew Khyzhniak
 
