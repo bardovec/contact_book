@@ -1,0 +1,61 @@
+.item {
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.item__img {
+    width: 80px;
+    height: 80px;
+}
+
+.item__name {
+    font-size: 30px;
+}
+
+.item_info {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: linear-gradient(90deg, rgba(111, 177, 127, 1) 0%, rgba(154, 173, 89, 1) 100%);
+    padding: 10px 10px;
+}
+
+.item-contact_info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info__btns {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 10px 10px;
+    border-radius: 10px ;
+    border: none;
+    font-size: 24px;
+    background-color: linen;
+    cursor: pointer;
+}
+.btn-remove {
+    padding: 10px 10px;
+    border-radius: 10px ;
+    border: none;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+}
+
+.icon-contact__gradient {
+    background: linear-gradient(90deg, rgba(111, 177, 127, 1) 0%, rgba(154, 173, 89, 1) 100%);
+    color: white;
+    font-size: 1.5em;
+    padding: .5em;
+
+}

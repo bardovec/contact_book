@@ -1,0 +1,56 @@
+.paper {
+
+    /*display: flex;*/
+
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(111, 177, 127, 1) 0%, rgba(154, 173, 89, 1) 100%);
+    border-radius: 20px;
+
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px;
+
+}
+.form__input {
+    margin-bottom: 10px  ;
+    border-radius: 5px ;
+}
+.paper__title {
+    font-size: 26px ;
+    color: #ffffff;
+}
+.form-field__label {
+    color: #ffffff;
+    padding: 10px 10px;
+}
+.form__input {
+    display: block;
+    width: 90%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form__btn {
+    margin: 25px 0;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: none;
+    background-color: linen;
+    color: black ;
+    font-size: 22px;
+    cursor: pointer;
+}

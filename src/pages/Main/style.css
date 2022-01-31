@@ -1,0 +1,30 @@
+.img {
+    width: 70px;
+    height: 70px    ;
+}
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.main_title {
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.appbar {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 15px;
+}
+.appbar-menu__title {
+    color: #fff;
+    font-size: 24px;
+}
+.appbar-menu {
+    display: flex;
+}
+
+
